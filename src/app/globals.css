@@ -79,25 +79,25 @@
 }
 
 .dark {
-  --background: 40 69 44; /* brand-900*/
+  --background: 17 24 39; /* neutral-900 */
   --foreground: 243 244 246; /* neutral-100 */
-  --card: 55 95 62; /* brand-600 */
+  --card: 31 41 55; /* neutral-800 */
   --card-foreground: 243 244 246;
-  --popover: 55 95 62; /* brand-600 */
+  --popover: 31 41 55; /* neutral-800 */
   --popover-foreground: 243 244 246;
-  --primary: 130 190 119; /* brand-meadow */
-  --primary-foreground: 40 69 44; /* brand-900 */
-  --secondary: 70 120 77; /* brand-700 */
-  --secondary-foreground: 240 247 240; /* brand-100 */
-  --muted: 70 120 77; /* brand-700 */
+  --primary: 100 172 110; /* brand-leaf */
+  --primary-foreground: 255 255 255;
+  --secondary: 55 65 81; /* neutral-700 */
+  --secondary-foreground: 243 244 246; /* neutral-100 */
+  --muted: 55 65 81; /* neutral-700 */
   --muted-foreground: 156 163 175; /* neutral-400 */
   --accent: 50 142 110; /* brand-pine */
-  --accent-foreground: 240 247 240; /* brand-100 */
-  --destructive: 220 38 38;
+  --accent-foreground: 243 244 246; /* neutral-100 */
+  --destructive: 239 68 68;
   --destructive-foreground: 255 255 255;
-  --border: 70 120 77; /* brand-700 */
-  --input: 55 95 62; /* brand-600 */
-  --ring: 130 190 119; /* brand-meadow */
+  --border: 75 85 99; /* neutral-600 */
+  --input: 55 65 81; /* neutral-700 */
+  --ring: 100 172 110; /* brand-leaf */
 }
 
 @layer base {

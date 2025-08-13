@@ -83,7 +83,7 @@ export function PortfolioSection() {
     : portfolioItems.filter(item => item.category === activeCategory);
 
   return (
-    <section id="portfolio" className="py-24 bg-gradient-to-b from-white to-brand-50">
+    <section id="portfolio" className="py-24 bg-gradient-to-b from-background to-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -122,10 +122,10 @@ export function PortfolioSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white rounded-xl overflow-hidden shadow-sm border border-brand-200 hover:shadow-lg hover:border-brand-300 transition-all"
+              className="bg-card rounded-xl overflow-hidden shadow-sm border border-border hover:shadow-lg hover:border-primary transition-all"
             >
-              <div className="aspect-video bg-gradient-to-br from-brand-mint/40 to-brand-meadow/40 flex items-center justify-center">
-                <ImageIcon className="h-12 w-12 text-brand-deep/60" />
+              <div className="aspect-video bg-gradient-to-br from-accent/40 to-primary/40 flex items-center justify-center">
+                <ImageIcon className="h-12 w-12 text-primary/60" />
               </div>
               
               <div className="p-6">
@@ -140,7 +140,7 @@ export function PortfolioSection() {
                   {item.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1 bg-brand-mint/60 text-brand-deep text-sm rounded-full"
+                      className="px-3 py-1 bg-accent/60 text-accent-foreground text-sm rounded-full"
                     >
                       {tag}
                     </span>

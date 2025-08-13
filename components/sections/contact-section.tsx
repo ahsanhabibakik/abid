@@ -107,7 +107,7 @@ export function ContactSection() {
                       <p className="text-sm text-muted-foreground">{info.label}</p>
                       <a
                         href={info.href}
-                        className="text-foreground hover:text-brand-leaf transition-colors"
+                        className="text-foreground hover:text-primary transition-colors"
                       >
                         {info.value}
                       </a>
@@ -128,7 +128,7 @@ export function ContactSection() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`p-3 bg-white rounded-lg border border-brand-200 hover:border-brand-leaf transition-colors ${social.color}`}
+                    className={`p-3 bg-card rounded-lg border border-border hover:border-primary transition-colors ${social.color}`}
                     title={social.label}
                   >
                     <social.icon className="h-6 w-6" />
@@ -137,7 +137,7 @@ export function ContactSection() {
               </div>
             </div>
 
-            <div className="bg-white rounded-xl p-6 border border-brand-200">
+            <div className="bg-card rounded-xl p-6 border border-border">
               <h4 className="text-lg font-semibold text-foreground mb-2">
                 Business Facebook Page
               </h4>
@@ -162,7 +162,7 @@ export function ContactSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-white rounded-2xl p-8 shadow-sm border border-brand-200"
+            className="bg-card rounded-2xl p-8 shadow-sm border border-border"
           >
             <h3 className="text-2xl font-bold text-foreground mb-6">
               Send a Message
@@ -175,7 +175,7 @@ export function ContactSection() {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 border border-brand-300 rounded-lg bg-white text-foreground focus:outline-none focus:ring-2 focus:ring-brand-leaf"
+                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
                   placeholder="Your name"
                 />
               </div>
@@ -186,7 +186,7 @@ export function ContactSection() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 border border-brand-300 rounded-lg bg-white text-foreground focus:outline-none focus:ring-2 focus:ring-brand-leaf"
+                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
                   placeholder="your@email.com"
                 />
               </div>
@@ -197,7 +197,7 @@ export function ContactSection() {
                 <input
                   type="text"
                   id="subject"
-                  className="w-full px-4 py-3 border border-brand-300 rounded-lg bg-white text-foreground focus:outline-none focus:ring-2 focus:ring-brand-leaf"
+                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
                   placeholder="What's this about?"
                 />
               </div>

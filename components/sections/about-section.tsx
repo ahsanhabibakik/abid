@@ -90,7 +90,7 @@ export function AboutSection() {
           viewport={{ once: true }}
           className="mt-16 text-center"
         >
-          <div className="bg-white rounded-2xl p-8 shadow-sm border border-brand-200">
+          <div className="bg-card rounded-2xl p-8 shadow-sm border border-border">
             <h3 className="text-2xl font-bold text-foreground mb-6">
               My Philosophy
             </h3>
