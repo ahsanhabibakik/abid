@@ -10,8 +10,8 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "syed.habib@example.com",
-      href: "mailto:syed.habib@example.com"
+      value: "mir.abid.hasan@example.com",
+      href: "mailto:mir.abid.hasan@example.com"
     },
     {
       icon: Phone,
@@ -31,39 +31,39 @@ export function ContactSection() {
     {
       icon: Facebook,
       label: "Facebook",
-      href: "https://facebook.com/syedhabib",
+      href: "https://facebook.com/mirabidhasan",
       color: "hover:text-blue-600"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/syedhabib",
+      href: "https://linkedin.com/in/mirabidhasan",
       color: "hover:text-blue-700"
     },
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com/syedhabib",
+      href: "https://twitter.com/mirabidhasan",
       color: "hover:text-blue-400"
     },
     {
       icon: Instagram,
       label: "Instagram",
-      href: "https://instagram.com/syedhabib",
+      href: "https://instagram.com/mirabidhasan",
       color: "hover:text-pink-600"
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/syedhabib",
+      href: "https://github.com/mirabidhasan",
       color: "hover:text-gray-600"
     }
   ];
 
   const businessFacebook = {
-    name: "Syed Habib Business",
+    name: "Mir Abid Hasan Business",
     description: "Follow my business journey and insights",
-    href: "https://facebook.com/syedhabibbusiness"
+    href: "https://facebook.com/mirabidhasanbusiness"
   };
 
   return (

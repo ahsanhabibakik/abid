@@ -29,7 +29,7 @@ export function HeroSection() {
             >
               Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-                Syed Habib
+                Mir Abid Hasan
               </span>
             </motion.h1>
 

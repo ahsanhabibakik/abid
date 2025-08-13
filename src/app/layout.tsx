@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Syed Habib - Portfolio",
+  title: "Mir Abid Hasan - Portfolio",
   description: "Personal portfolio showcasing business, travel, health, marathon, swimming and design work",
 };
 
