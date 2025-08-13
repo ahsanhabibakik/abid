@@ -107,7 +107,7 @@ export function ContactSection() {
                       <p className="text-sm text-muted-foreground">{info.label}</p>
                       <a
                         href={info.href}
-                        className="text-foreground hover:text-primary transition-colors"
+                        className="text-foreground hover:text-brand-leaf transition-colors"
                       >
                         {info.value}
                       </a>
@@ -128,7 +128,7 @@ export function ContactSection() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`p-3 bg-card rounded-lg border border-border hover:border-primary transition-colors ${social.color}`}
+                    className={`p-3 bg-card rounded-lg border border-border hover:border-brand-leaf transition-colors ${social.color}`}
                     title={social.label}
                   >
                     <social.icon className="h-6 w-6" />
@@ -175,7 +175,7 @@ export function ContactSection() {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-brand-leaf"
                   placeholder="Your name"
                 />
               </div>
@@ -186,7 +186,7 @@ export function ContactSection() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-brand-leaf"
                   placeholder="your@email.com"
                 />
               </div>
@@ -197,7 +197,7 @@ export function ContactSection() {
                 <input
                   type="text"
                   id="subject"
-                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-brand-leaf"
                   placeholder="What's this about?"
                 />
               </div>
@@ -208,7 +208,7 @@ export function ContactSection() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                  className="w-full px-4 py-3 border border-input rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-brand-leaf resize-none"
                   placeholder="Tell me about your project, idea, or just say hello!"
                 ></textarea>
               </div>

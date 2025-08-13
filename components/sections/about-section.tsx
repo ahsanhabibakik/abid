@@ -69,8 +69,8 @@ export function AboutSection() {
               className="bg-background rounded-xl p-6 shadow-sm border hover:shadow-md transition-shadow"
             >
               <div className="flex items-center mb-4">
-                <div className="p-3 bg-primary/10 rounded-lg mr-4">
-                  <interest.icon className="h-6 w-6 text-primary" />
+                <div className="p-3 bg-brand-leaf/10 rounded-lg mr-4">
+                  <interest.icon className="h-6 w-6 text-brand-leaf" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground">
                   {interest.title}
