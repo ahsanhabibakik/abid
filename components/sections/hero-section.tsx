@@ -12,7 +12,7 @@ export function HeroSection() {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted/20">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-50 to-brand-100">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -28,7 +28,7 @@ export function HeroSection() {
               className="text-4xl md:text-6xl font-bold text-foreground"
             >
               Hi, I&apos;m{" "}
-              <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-brand-leaf to-brand-pine bg-clip-text text-transparent">
                 Mir Abid Hasan
               </span>
             </motion.h1>
@@ -49,11 +49,11 @@ export function HeroSection() {
               className="space-y-4 text-muted-foreground"
             >
               <div className="flex items-center gap-2">
-                <MapPin className="h-5 w-5 text-primary" />
+                <MapPin className="h-5 w-5 text-brand-deep" />
                 <span>Based in Bangladesh</span>
               </div>
               <div className="flex items-center gap-2">
-                <Calendar className="h-5 w-5 text-primary" />
+                <Calendar className="h-5 w-5 text-brand-deep" />
                 <span>Available for new opportunities</span>
               </div>
             </motion.div>
@@ -99,8 +99,8 @@ export function HeroSection() {
             className="relative"
           >
             <div className="relative w-full max-w-md mx-auto">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-primary/40 flex items-center justify-center">
-                <div className="w-4/5 h-4/5 rounded-xl bg-muted flex items-center justify-center">
+              <div className="aspect-square rounded-2xl bg-gradient-to-br from-brand-mint/60 to-brand-meadow/60 flex items-center justify-center">
+                <div className="w-4/5 h-4/5 rounded-xl bg-brand-100 flex items-center justify-center border-2 border-brand-300">
                   <span className="text-6xl">👨‍💼</span>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export function HeroSection() {
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -bottom-4 left-1/2 transform -translate-x-1/2"
               >
-                <ArrowDown className="h-8 w-8 text-primary" />
+                <ArrowDown className="h-8 w-8 text-brand-leaf" />
               </motion.div>
             </div>
           </motion.div>

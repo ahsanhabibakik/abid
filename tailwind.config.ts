@@ -18,6 +18,37 @@ const config: Config = {
     },
     extend: {
       colors: {
+        // Brand Colors
+        brand: {
+          50: "#F7FBF8",
+          100: "#F0F7F0",
+          200: "#E0EEE2",
+          300: "#D0E6D4",
+          400: "#C1DEC5",
+          500: "#64AC6E", // Leaf (primary base)
+          600: "#55925E",
+          700: "#46784D",
+          800: "#375F3D",
+          900: "#28452C",
+          pine: "#328E6E",
+          leaf: "#64AC6E",
+          meadow: "#82BE77",
+          mint: "#CDE4AC",
+          deep: "#28745A",
+        },
+        neutral: {
+          50: "#F9FAFB",
+          100: "#F3F4F6",
+          200: "#E5E7EB",
+          300: "#D1D5DB",
+          400: "#9CA3AF",
+          500: "#6B7280",
+          600: "#4B5563",
+          700: "#374151",
+          800: "#1F2937",
+          900: "#111827",
+        },
+        // Semantic Colors using brand palette
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
