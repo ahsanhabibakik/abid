@@ -57,47 +57,47 @@
 
   /* Semantic Variables using Brand Colors */
   --radius: 0.625rem;
-  --background: 248 251 248; /* brand-50 */
-  --foreground: 31 41 55; /* neutral-800 */
-  --card: 255 255 255;
-  --card-foreground: 31 41 55;
-  --popover: 255 255 255;
-  --popover-foreground: 31 41 55;
-  --primary: 100 172 110; /* brand-leaf */
-  --primary-foreground: 255 255 255;
-  --secondary: 224 238 226; /* brand-200 */
-  --secondary-foreground: 40 116 90; /* brand-deep */
-  --muted: 240 247 240; /* brand-100 */
-  --muted-foreground: 107 114 128; /* neutral-500 */
-  --accent: 205 228 172; /* brand-mint */
-  --accent-foreground: 40 116 90; /* brand-deep */
-  --destructive: 239 68 68;
-  --destructive-foreground: 255 255 255;
-  --border: 208 230 212; /* brand-300 */
-  --input: 208 230 212; /* brand-300 */
-  --ring: 100 172 110; /* brand-leaf */
+  --background: rgb(248 251 248); /* brand-50 */
+  --foreground: rgb(31 41 55); /* neutral-800 */
+  --card: rgb(255 255 255);
+  --card-foreground: rgb(31 41 55);
+  --popover: rgb(255 255 255);
+  --popover-foreground: rgb(31 41 55);
+  --primary: rgb(100 172 110); /* brand-leaf */
+  --primary-foreground: rgb(255 255 255);
+  --secondary: rgb(224 238 226); /* brand-200 */
+  --secondary-foreground: rgb(40 116 90); /* brand-deep */
+  --muted: rgb(240 247 240); /* brand-100 */
+  --muted-foreground: rgb(107 114 128); /* neutral-500 */
+  --accent: rgb(205 228 172); /* brand-mint */
+  --accent-foreground: rgb(40 116 90); /* brand-deep */
+  --destructive: rgb(239 68 68);
+  --destructive-foreground: rgb(255 255 255);
+  --border: rgb(208 230 212); /* brand-300 */
+  --input: rgb(208 230 212); /* brand-300 */
+  --ring: rgb(100 172 110); /* brand-leaf */
 }
 
 .dark {
-  --background: 17 24 39; /* neutral-900 */
-  --foreground: 243 244 246; /* neutral-100 */
-  --card: 31 41 55; /* neutral-800 */
-  --card-foreground: 243 244 246;
-  --popover: 31 41 55; /* neutral-800 */
-  --popover-foreground: 243 244 246;
-  --primary: 100 172 110; /* brand-leaf */
-  --primary-foreground: 255 255 255;
-  --secondary: 55 65 81; /* neutral-700 */
-  --secondary-foreground: 243 244 246; /* neutral-100 */
-  --muted: 55 65 81; /* neutral-700 */
-  --muted-foreground: 156 163 175; /* neutral-400 */
-  --accent: 50 142 110; /* brand-pine */
-  --accent-foreground: 243 244 246; /* neutral-100 */
-  --destructive: 239 68 68;
-  --destructive-foreground: 255 255 255;
-  --border: 75 85 99; /* neutral-600 */
-  --input: 55 65 81; /* neutral-700 */
-  --ring: 100 172 110; /* brand-leaf */
+  --background: rgb(17 24 39); /* neutral-900 */
+  --foreground: rgb(243 244 246); /* neutral-100 */
+  --card: rgb(31 41 55); /* neutral-800 */
+  --card-foreground: rgb(243 244 246);
+  --popover: rgb(31 41 55); /* neutral-800 */
+  --popover-foreground: rgb(243 244 246);
+  --primary: rgb(100 172 110); /* brand-leaf */
+  --primary-foreground: rgb(255 255 255);
+  --secondary: rgb(55 65 81); /* neutral-700 */
+  --secondary-foreground: rgb(243 244 246); /* neutral-100 */
+  --muted: rgb(55 65 81); /* neutral-700 */
+  --muted-foreground: rgb(156 163 175); /* neutral-400 */
+  --accent: rgb(50 142 110); /* brand-pine */
+  --accent-foreground: rgb(243 244 246); /* neutral-100 */
+  --destructive: rgb(239 68 68);
+  --destructive-foreground: rgb(255 255 255);
+  --border: rgb(75 85 99); /* neutral-600 */
+  --input: rgb(55 65 81); /* neutral-700 */
+  --ring: rgb(100 172 110); /* brand-leaf */
 }
 
 @layer base {
