@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 
 export function Navbar() {
   const { theme, setTheme } = useTheme();

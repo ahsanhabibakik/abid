@@ -77,11 +77,11 @@ export function ContactSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Whether you want to discuss business opportunities, share travel stories, 
-            talk about fitness goals, or collaborate on creative projects, I'd love to hear from you.
+            talk about fitness goals, or collaborate on creative projects, I&apos;d love to hear from you.
           </p>
         </motion.div>
 

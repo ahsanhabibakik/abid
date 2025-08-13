@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, MapPin, Calendar } from "lucide-react";
@@ -28,7 +27,7 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-4xl md:text-6xl font-bold text-foreground"
             >
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
                 Syed Habib
               </span>

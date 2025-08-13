@@ -52,7 +52,7 @@ export function AboutSection() {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a multi-passionate individual who believes in living life fully. 
+            I&apos;m a multi-passionate individual who believes in living life fully. 
             My journey spans across business, adventure, fitness, and creativity, 
             each aspect enriching the others and helping me grow as a person.
           </p>
@@ -96,7 +96,7 @@ export function AboutSection() {
             </h3>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               I believe that life is meant to be lived with purpose, passion, and balance. 
-              Whether I'm developing a business strategy, training for a marathon, exploring a new country, 
+              Whether I&apos;m developing a business strategy, training for a marathon, exploring a new country, 
               or creating a design, I approach everything with dedication and enthusiasm. 
               My diverse interests complement each other—the discipline from athletics enhances my business focus, 
               travel broadens my creative perspective, and health consciousness keeps me energized for all my pursuits.
